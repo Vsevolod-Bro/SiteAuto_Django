@@ -1,0 +1,30 @@
+{% extends "main_AutoTO/wrapper.html" %}
+
+{% block content %}
+<html>
+<font color="#072E7D">
+<h1 align="center"> VOLVO Cars Maintenance </h1>
+</font>
+
+
+<form>
+    <label for="car_model">Choose model: </label>
+    <select id="car_model" name="cars">
+        <option value="XC90">XC90</option>
+        <option value="XC60">XC60</option>
+        <option value="XC40">XC40</option>
+        <option value="S90">S90</option>
+    </select>
+<!--
+    <input id="car_model" type="select" name="name_field" value="xc90">
+-->
+    <input type="submit" value="Send">
+</form>
+
+</html>
+<!-- {% include "main_AutoTO/includes/incl_html.html" %}
+
+{% endblock %}
+
+
+

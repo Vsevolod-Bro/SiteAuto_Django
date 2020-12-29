@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <title>Page Header</title>
+    <style>
+        header {
+            display: block;
+            background: #E9E9E9;
+            text-align: center;
+            }
+    </style>
+    {% load static %}
+    <img src="{% static 'Pics/volvo-logo.png' %}" align="middle">
+<!--
+class="img-thumbnail"
+-->
+
+</header>
+<body style="background: white">
+{% block content %}
+{% endblock %}
+</body>
+</html>
